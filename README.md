@@ -1,2 +1,2 @@
 # Lista-Tarefas
- 
+  Uma lista de tarefas feita em  ReactJS, onde você digita no campo de texto a tarefa para você lembrar e adiciona, vai ficar salvo na memória do seu computador, caso tenha concluido ela, apenas clicar em cima da tarefa, que terá uma animação onde o nome estará riscado, caso queira excluir ela, há um botão do lado da tarefa, e ao final da página um botão para excluir todas as tarefas.
