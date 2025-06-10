@@ -1,29 +1,61 @@
-Em resumo, este componente React oferece uma maneira simples e interativa para os usuários gerenciarem suas tarefas, com funcionalidades de adição, marcação de conclusão e exclusão de tarefas, além de armazenamento local para persistência dos dados.
-Estado Local:
+# 📝 Lista de Tarefas
 
-O componente utiliza o hook useState para gerenciar o estado local das tarefas (lista) e do novo item a ser adicionado (novoItem).
-Armazenamento Local:
+Um simples e interativo gerenciador de tarefas feito em React. Permite adicionar, marcar como concluída e excluir tarefas, com persistência local no navegador.
 
-As tarefas são armazenadas localmente no navegador utilizando o localStorage, permitindo que a lista persista mesmo após o recarregamento da página.
-Adição de Tarefas:
+## ✨ Funcionalidades
 
-Os usuários podem adicionar novas tarefas digitando o texto no campo de entrada e pressionando o botão "Add" ou a tecla Enter.
-A função adicionaItem é chamada para processar a adição da nova tarefa à lista.
-Marcação de Conclusão:
+- ✅ Adicionar novas tarefas
+- 📋 Visualizar a lista de tarefas
+- ✔️ Marcar tarefas como concluídas
+- ❌ Excluir tarefas individualmente
+- 🗑️ Excluir todas as tarefas de uma vez
+- 💾 Persistência de dados usando LocalStorage
+- 🎨 Interface limpa e responsiva com CSS
 
-Os usuários podem marcar uma tarefa como concluída clicando sobre ela.
-A função clicou é responsável por alternar o estado de conclusão de uma tarefa específica.
-Exclusão de Tarefas:
+## 📦 Instalação
 
-Os usuários podem excluir uma tarefa clicando no botão "Deletar" ao lado dela.
-A função deleta é acionada para remover a tarefa selecionada da lista.
-Exclusão de Todas as Tarefas:
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/JoaoAntonio08/Lista-Tarefas.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o projeto:
+   ```bash
+   npm start
+   ```
 
-Existe um botão "Deletar Todos" que permite aos usuários excluir todas as tarefas da lista de uma vez.
-A função delTudo é chamada para limpar completamente a lista de tarefas.
-Exibição Condicional:
+## 🛠️ Como usar
 
-A exibição da lista de tarefas é condicional com base no tamanho da lista. Se não houver tarefas, é exibida uma imagem. Caso contrário, a lista é renderizada.
-Estilo:
+- Digite sua tarefa no campo e pressione **Add** ou a tecla **Enter**.
+- Clique em uma tarefa para marcá-la como concluída.
+- Use o botão **Deletar** para remover tarefas específicas.
+- Use **Deletar Todos** para limpar a lista inteira.
 
-O componente utiliza estilos CSS para criar uma interface de usuário limpa e intuitiva.
+## ⚙️ Tecnologias
+
+- React
+- JavaScript
+- CSS
+- HTML
+- LocalStorage
+
+## 📁 Estrutura do Projeto
+
+```
+Lista-Tarefas/
+├── public/
+│   └── ...
+├── src/
+│   ├── components/
+│   ├── App.js
+│   └── ...
+├── README.md
+└── package.json
+```
+
+## 🙋 Sobre
+
+Este projeto foi criado para praticar conceitos de React, como hooks, gerenciamento de estado e persistência no navegador.
